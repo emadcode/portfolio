@@ -2077,3 +2077,424 @@ body {
         box-shadow: 0 0 5px #00f0ff;
     }
 }
+
+/* Enhanced Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .nav-menu {
+        gap: 20px;
+    }
+    
+    .hero-content {
+        padding: 0 20px;
+    }
+    
+    .about-content,
+    .skills-container,
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .laptop-3d {
+        order: 2;
+    }
+    
+    .skill-orbit {
+        order: 1;
+    }
+    
+    .skill-list {
+        order: 3;
+    }
+    
+    .laptop-screen {
+        width: 200px;
+        height: 120px;
+    }
+    
+    .laptop-base {
+        width: 220px;
+    }
+    
+    .laptop-shadow {
+        width: 240px;
+    }
+    
+    .code-terminal {
+        padding: 8px;
+        font-size: 9px;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .work-details {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hardware-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .pc-assembly-scene {
+        height: 400px;
+    }
+    
+    .assembly-stage {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        gap: 15px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+    }
+    
+    .about-content,
+    .contact-container {
+        gap: 30px;
+    }
+    
+    .profile-image img {
+        max-width: 180px;
+    }
+    
+    .skills-container {
+        gap: 25px;
+    }
+    
+    .laptop-screen {
+        width: 180px;
+        height: 110px;
+    }
+    
+    .laptop-base {
+        width: 200px;
+    }
+    
+    .laptop-shadow {
+        width: 220px;
+    }
+    
+    .pc-assembly-scene {
+        height: 400px;
+    }
+    
+    .assembly-stage {
+        width: 350px;
+        height: 400px;
+    }
+    
+    .contact-form {
+        width: 100%;
+    }
+    
+    .social-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .three-canvas {
+        height: 60vh;
+    }
+    
+    .hero-section {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    
+    .project-card,
+    .work-item {
+        padding: 20px;
+    }
+    
+    .project-info,
+    .work-card {
+        h3 {
+            font-size: 1.2rem;
+        }
+        
+        p {
+            font-size: 0.95rem;
+        }
+    }
+    
+    .work-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .work-actions .btn {
+        flex: 1 1 auto;
+        min-width: 120px;
+    }
+    
+    .skill-badge {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .skill-name {
+        font-size: 0.9rem;
+    }
+    
+    .hardware-skills {
+        grid-template-columns: 1fr;
+    }
+    
+    .ai-assistant {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .ai-chat-container {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .section {
+        padding: 50px 0;
+    }
+    
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 15px;
+    }
+    
+    .logo {
+        order: 2;
+    }
+    
+    .nav-menu {
+        order: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons .btn {
+        max-width: 180px;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .about-content,
+    .skills-container,
+    .contact-container {
+        gap: 25px;
+    }
+    
+    .profile-image img {
+        max-width: 150px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+    
+    .skill-name {
+        font-size: 0.9rem;
+    }
+    
+    .laptop-screen {
+        width: 160px;
+        height: 100px;
+    }
+    
+    .laptop-base {
+        width: 180px;
+    }
+    
+    .laptop-shadow {
+        width: 200px;
+    }
+    
+    .pc-assembly-scene {
+        height: 350px;
+    }
+    
+    .assembly-stage {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .hardware-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .hardware-info {
+        order: 1;
+    }
+    
+    .pc-assembly-scene {
+        order: 2;
+        height: 300px;
+    }
+    
+    .assembly-stage {
+        width: 280px;
+        height: 300px;
+        transform: rotateX(20deg) rotateY(-10deg);
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+    
+    .btn {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+    
+    .skill-badge {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .ai-chat-container {
+        width: 280px;
+        height: 380px;
+    }
+    
+    .three-canvas {
+        height: 50vh;
+    }
+    
+    .hero-section {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav-menu {
+        gap: 8px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons .btn {
+        max-width: 160px;
+        padding: 8px 15px;
+        font-size: 0.85rem;
+    }
+    
+    .section {
+        padding: 40px 0;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .about-text p {
+        font-size: 0.9rem;
+    }
+    
+    .laptop-screen {
+        width: 140px;
+        height: 90px;
+    }
+    
+    .laptop-base {
+        width: 160px;
+    }
+    
+    .laptop-shadow {
+        width: 180px;
+    }
+    
+    .assembly-stage {
+        width: 250px;
+        height: 280px;
+    }
+    
+    .project-card,
+    .work-item {
+        padding: 15px;
+    }
+    
+    .skill-badge {
+        padding: 7px 10px;
+        font-size: 0.75rem;
+    }
+    
+    .ai-chat-container {
+        width: 260px;
+        height: 350px;
+    }
+    
+    .ai-messages {
+        height: 250px;
+    }
+}
